@@ -1,0 +1,26 @@
+# Rust build artifacts
+/target/
+Cargo.lock
+
+# Compiled assembly output
+**/*.s
+**/*.o
+**/*.a
+
+# Linked test binaries
+**/*.run
+
+# Runtime object files
+runtime/our_code.o
+runtime/libour_code.a
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
